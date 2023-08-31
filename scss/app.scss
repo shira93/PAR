@@ -1,0 +1,46 @@
+@import 'imports/_variables' , 'imports/_mixins' , 'imports/_reset' ,'imports/_keyframes';
+
+
+
+
+.contenedor{
+    width: 80%;
+    max-width: 120em;
+    padding:1em;
+    @include neo( 0 , .5em , .3em);
+    align-items: tocenterp;
+}
+.contenedor .ul{
+    width:100%;
+    background-color: lightblue;
+    display: center;
+    align-items: center;
+}
+.contenedor .li{
+    // background-color: lightgreen;
+    padding: 1em;
+    max-width: 190em;
+    margin:0 2em 0 0;
+    @include neo( 1 , .5em , .3em);
+    transition: all .5s ease;
+    cursor: pointer;
+    justify-content: flex-start;
+    align-items: center;
+    display: center;
+}
+.contenedor .li.activo{
+    background-color: lightskyblue;
+    color:white;
+    justify-content: flex-start;
+    align-items: center;
+    display: center;
+    
+}
+
+
+.contenedor .bloque.activo{
+    opacity: 1;
+    transform: translateY(0%);
+    align-items: center;
+    display: flex;
+}
