@@ -257,3 +257,17 @@ body {
           transform: translateY(0%);
           justify-content: center;
 }
+
+.contenedor-imagen {
+  text-align: center; /* Centra horizontalmente */
+  display: flex;
+  justify-content: center; /* Centra verticalmente */
+  align-items: center;
+  display: block; /* Elimina el espacio adicional debajo de la imagen */
+  margin: 0 auto; /* Centra horizontalmente la imagen dentro del contenedor */
+}
+
+.vinhetas{
+  list-style-type: '\2B9E'; /* Código Unicode para una estrella rellena */
+  margin-left: 20px; /* Agrega un margen a la izquierda para dar espacio a la viñeta */
+}
